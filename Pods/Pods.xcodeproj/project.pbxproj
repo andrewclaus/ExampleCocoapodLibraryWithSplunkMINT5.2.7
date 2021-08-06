@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8FD59C5B909F201DED8686B0053475C0 /* SplunkMint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E717BE50803D0990ACA3A1FED4C707B1 /* Build configuration list for PBXAggregateTarget "SplunkMint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SplunkMint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06B5DE8D42026AF1A97EBD64B5159EAC /* Pods-TSLogEvent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1672EDB867084EEBDFC31062934D13F0 /* Pods-TSLogEvent-dummy.m */; };
+		6BC9E546BF4FAEBC845085463DC1363B /* Pods-TSLogEvent-TSLogEventSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7534CC81474247FE716C3F307F19F408 /* Pods-TSLogEvent-TSLogEventSampleTests-dummy.m */; };
+		E0F7AE94B8A1CC315E4FEF9CFAB85C0B /* Pods-TSLogEvent-TSLogEventSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DC8F97782BEF5C4D1D5F00868211D1 /* Pods-TSLogEvent-TSLogEventSample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		356842C59B83B615EE53B9271ACC9029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD59C5B909F201DED8686B0053475C0;
+			remoteInfo = SplunkMint;
+		};
+		CC18AD9B1B6C44A5A5B8BA31E29140BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD59C5B909F201DED8686B0053475C0;
+			remoteInfo = SplunkMint;
+		};
+		D0A0C8A98E88E486AA6E131C1CF9CF9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD59C5B909F201DED8686B0053475C0;
+			remoteInfo = SplunkMint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		149F75772DCC14AFC716D4E1FA21AA1C /* MintEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintEnums.h; path = SplunkMint.framework/Versions/A/Headers/MintEnums.h; sourceTree = "<group>"; };
+		1672EDB867084EEBDFC31062934D13F0 /* Pods-TSLogEvent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSLogEvent-dummy.m"; sourceTree = "<group>"; };
+		22D558324764AF19F7161360FF64F899 /* Pods-TSLogEvent-TSLogEventSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSLogEvent-TSLogEventSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		245795B2D34AD9952AF6AD5C667665B2 /* MintJavascript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintJavascript.h; path = SplunkMint.framework/Versions/A/Headers/MintJavascript.h; sourceTree = "<group>"; };
+		266AD6AE5C39116F5445CC80BFE1B793 /* libPods-TSLogEvent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TSLogEvent.a"; path = "libPods-TSLogEvent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB83586659048A93682A0187E6C4651 /* Pods-TSLogEvent-TSLogEventSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent-TSLogEventSample.release.xcconfig"; sourceTree = "<group>"; };
+		31B16041A9A1DDBAB3C0C1BCBA588AED /* MintWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintWKWebView.h; path = SplunkMint.framework/Versions/A/Headers/MintWKWebView.h; sourceTree = "<group>"; };
+		3FAD256280206E8D4B87A8A2B00DC5C9 /* SplunkMint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SplunkMint.framework; sourceTree = "<group>"; };
+		73DCD2D4531CC93597816ED7380D1340 /* SplunkMint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SplunkMint.release.xcconfig; sourceTree = "<group>"; };
+		7534CC81474247FE716C3F307F19F408 /* Pods-TSLogEvent-TSLogEventSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSLogEvent-TSLogEventSampleTests-dummy.m"; sourceTree = "<group>"; };
+		764622093F1CFFE472A8D9B76FBE7BC0 /* Pods-TSLogEvent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent.debug.xcconfig"; sourceTree = "<group>"; };
+		76ECB447838D5C9F68BAC583E1BB4D5F /* MintUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintUtilities.h; path = SplunkMint.framework/Versions/A/Headers/MintUtilities.h; sourceTree = "<group>"; };
+		7B7B23043F944C30C3E30145CE978AEE /* SplunkMint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SplunkMint.debug.xcconfig; sourceTree = "<group>"; };
+		820A28CCB1AB1B0136B7A5DE5EED79DE /* Pods-TSLogEvent-TSLogEventSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSLogEvent-TSLogEventSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DA8F226D3E38117669B28A89BC80DCE /* MintLimitedExtraData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintLimitedExtraData.h; path = SplunkMint.framework/Versions/A/Headers/MintLimitedExtraData.h; sourceTree = "<group>"; };
+		992D78629A1523FA0184997BE040B335 /* Pods-TSLogEvent-TSLogEventSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent-TSLogEventSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED690DC55A30089C174404B7C94C93D /* Pods-TSLogEvent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent.release.xcconfig"; sourceTree = "<group>"; };
+		A470A63C7A95109FB176250374A72F8F /* Pods-TSLogEvent-TSLogEventSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent-TSLogEventSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A4E8B0A86EE40D3F630D8153B2E3DB24 /* Pods-TSLogEvent-TSLogEventSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSLogEvent-TSLogEventSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADD67DC1A2C2503C24AAC7196E67FEAF /* Pods-TSLogEvent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSLogEvent-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE1A5077DD363BE2D44B759B9BCECCCD /* SplunkMint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SplunkMint.h; path = SplunkMint.framework/Versions/A/Headers/SplunkMint.h; sourceTree = "<group>"; };
+		C6DC8F97782BEF5C4D1D5F00868211D1 /* Pods-TSLogEvent-TSLogEventSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSLogEvent-TSLogEventSample-dummy.m"; sourceTree = "<group>"; };
+		CAFEFD16471D50BB60C35910D2781173 /* Pods-TSLogEvent-TSLogEventSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSLogEvent-TSLogEventSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC9B9B9BBFB0CBDE2AF75D17941AB575 /* Pods-TSLogEvent-TSLogEventSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSLogEvent-TSLogEventSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE935CA31F3383CE803D4301D32BD97F /* libPods-TSLogEvent-TSLogEventSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TSLogEvent-TSLogEventSampleTests.a"; path = "libPods-TSLogEvent-TSLogEventSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE0F39D1610EFD07CF523B3318F475C /* Pods-TSLogEvent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSLogEvent-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F34F869BFC1732C1F3158E19D8DA84A9 /* Mint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mint.h; path = SplunkMint.framework/Versions/A/Headers/Mint.h; sourceTree = "<group>"; };
+		F9AF30C972C71BE2DFF7367A9A115E87 /* libPods-TSLogEvent-TSLogEventSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TSLogEvent-TSLogEventSample.a"; path = "libPods-TSLogEvent-TSLogEventSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32910E539C6F5617433B9DF2C8EEF2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BC01367CA3F06099528C1ADD5605F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B184BD1BEF13F5A98A0BFD777C0534A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40987E0A88B65F0D737D93DAF70FDCAB /* Pods-TSLogEvent */ = {
+			isa = PBXGroup;
+			children = (
+				DFE0F39D1610EFD07CF523B3318F475C /* Pods-TSLogEvent-acknowledgements.markdown */,
+				ADD67DC1A2C2503C24AAC7196E67FEAF /* Pods-TSLogEvent-acknowledgements.plist */,
+				1672EDB867084EEBDFC31062934D13F0 /* Pods-TSLogEvent-dummy.m */,
+				764622093F1CFFE472A8D9B76FBE7BC0 /* Pods-TSLogEvent.debug.xcconfig */,
+				9ED690DC55A30089C174404B7C94C93D /* Pods-TSLogEvent.release.xcconfig */,
+			);
+			name = "Pods-TSLogEvent";
+			path = "Target Support Files/Pods-TSLogEvent";
+			sourceTree = "<group>";
+		};
+		550C7F49175FE6DFC8DD9D3C1620E08B /* SplunkMint */ = {
+			isa = PBXGroup;
+			children = (
+				F34F869BFC1732C1F3158E19D8DA84A9 /* Mint.h */,
+				149F75772DCC14AFC716D4E1FA21AA1C /* MintEnums.h */,
+				245795B2D34AD9952AF6AD5C667665B2 /* MintJavascript.h */,
+				8DA8F226D3E38117669B28A89BC80DCE /* MintLimitedExtraData.h */,
+				76ECB447838D5C9F68BAC583E1BB4D5F /* MintUtilities.h */,
+				31B16041A9A1DDBAB3C0C1BCBA588AED /* MintWKWebView.h */,
+				AE1A5077DD363BE2D44B759B9BCECCCD /* SplunkMint.h */,
+				E1AD7A8F074EE7B993B92663FAE1FC26 /* Frameworks */,
+				8C2AD63479A7D18594E5BBA9CDC2C31F /* Support Files */,
+			);
+			name = SplunkMint;
+			path = SplunkMint;
+			sourceTree = "<group>";
+		};
+		8C2AD63479A7D18594E5BBA9CDC2C31F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B7B23043F944C30C3E30145CE978AEE /* SplunkMint.debug.xcconfig */,
+				73DCD2D4531CC93597816ED7380D1340 /* SplunkMint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SplunkMint";
+			sourceTree = "<group>";
+		};
+		9032FCE53FFCB9FC8E8F09364A0D86DB /* Pods-TSLogEvent-TSLogEventSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9B9B9BBFB0CBDE2AF75D17941AB575 /* Pods-TSLogEvent-TSLogEventSampleTests-acknowledgements.markdown */,
+				A4E8B0A86EE40D3F630D8153B2E3DB24 /* Pods-TSLogEvent-TSLogEventSampleTests-acknowledgements.plist */,
+				7534CC81474247FE716C3F307F19F408 /* Pods-TSLogEvent-TSLogEventSampleTests-dummy.m */,
+				992D78629A1523FA0184997BE040B335 /* Pods-TSLogEvent-TSLogEventSampleTests.debug.xcconfig */,
+				CAFEFD16471D50BB60C35910D2781173 /* Pods-TSLogEvent-TSLogEventSampleTests.release.xcconfig */,
+			);
+			name = "Pods-TSLogEvent-TSLogEventSampleTests";
+			path = "Target Support Files/Pods-TSLogEvent-TSLogEventSampleTests";
+			sourceTree = "<group>";
+		};
+		CC8F2F41925EC28B66B777FF88E846E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266AD6AE5C39116F5445CC80BFE1B793 /* libPods-TSLogEvent.a */,
+				F9AF30C972C71BE2DFF7367A9A115E87 /* libPods-TSLogEvent-TSLogEventSample.a */,
+				DE935CA31F3383CE803D4301D32BD97F /* libPods-TSLogEvent-TSLogEventSampleTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				E691539301A345CF2C8010BF83A2F9CE /* Pods */,
+				CC8F2F41925EC28B66B777FF88E846E6 /* Products */,
+				F775584FCE80D3CB288FCB05039556E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1AD7A8F074EE7B993B92663FAE1FC26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FAD256280206E8D4B87A8A2B00DC5C9 /* SplunkMint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E691539301A345CF2C8010BF83A2F9CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				550C7F49175FE6DFC8DD9D3C1620E08B /* SplunkMint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F775584FCE80D3CB288FCB05039556E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40987E0A88B65F0D737D93DAF70FDCAB /* Pods-TSLogEvent */,
+				F7B802515D3F50AD56627907F946C935 /* Pods-TSLogEvent-TSLogEventSample */,
+				9032FCE53FFCB9FC8E8F09364A0D86DB /* Pods-TSLogEvent-TSLogEventSampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F7B802515D3F50AD56627907F946C935 /* Pods-TSLogEvent-TSLogEventSample */ = {
+			isa = PBXGroup;
+			children = (
+				22D558324764AF19F7161360FF64F899 /* Pods-TSLogEvent-TSLogEventSample-acknowledgements.markdown */,
+				820A28CCB1AB1B0136B7A5DE5EED79DE /* Pods-TSLogEvent-TSLogEventSample-acknowledgements.plist */,
+				C6DC8F97782BEF5C4D1D5F00868211D1 /* Pods-TSLogEvent-TSLogEventSample-dummy.m */,
+				A470A63C7A95109FB176250374A72F8F /* Pods-TSLogEvent-TSLogEventSample.debug.xcconfig */,
+				2FB83586659048A93682A0187E6C4651 /* Pods-TSLogEvent-TSLogEventSample.release.xcconfig */,
+			);
+			name = "Pods-TSLogEvent-TSLogEventSample";
+			path = "Target Support Files/Pods-TSLogEvent-TSLogEventSample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		004F742B9CB55C1F7C640989C87E708C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37353666E1003844893BE0DCF3BE75B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AF27DE4B1AC431E1E43265E7F85F32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17C0C95A7936DDCD8028500F559CA82D /* Pods-TSLogEvent-TSLogEventSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45EA2759CCBC5F30D5D7857825A6BFF /* Build configuration list for PBXNativeTarget "Pods-TSLogEvent-TSLogEventSampleTests" */;
+			buildPhases = (
+				72AF27DE4B1AC431E1E43265E7F85F32 /* Headers */,
+				C957762A859DBA8D659B08B11BDC5EB5 /* Sources */,
+				32910E539C6F5617433B9DF2C8EEF2F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096927021A79A56BB02AEE68CACE6C88 /* PBXTargetDependency */,
+			);
+			name = "Pods-TSLogEvent-TSLogEventSampleTests";
+			productName = "Pods-TSLogEvent-TSLogEventSampleTests";
+			productReference = DE935CA31F3383CE803D4301D32BD97F /* libPods-TSLogEvent-TSLogEventSampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5A3625A6635ACB3F3F638DF773FFF7BA /* Pods-TSLogEvent-TSLogEventSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895D2E1C448E25732649D9ADB2D60708 /* Build configuration list for PBXNativeTarget "Pods-TSLogEvent-TSLogEventSample" */;
+			buildPhases = (
+				37353666E1003844893BE0DCF3BE75B9 /* Headers */,
+				194FBB31195251524440367550B478B6 /* Sources */,
+				79BC01367CA3F06099528C1ADD5605F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94437338A7AE71F7DE17E4B7F5383625 /* PBXTargetDependency */,
+			);
+			name = "Pods-TSLogEvent-TSLogEventSample";
+			productName = "Pods-TSLogEvent-TSLogEventSample";
+			productReference = F9AF30C972C71BE2DFF7367A9A115E87 /* libPods-TSLogEvent-TSLogEventSample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		63750116E4E7F067C90F305C3BAB964D /* Pods-TSLogEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703B779EF36892E834C03E769A26AC53 /* Build configuration list for PBXNativeTarget "Pods-TSLogEvent" */;
+			buildPhases = (
+				004F742B9CB55C1F7C640989C87E708C /* Headers */,
+				BE7FC362164916243C0FDCC9D38E26B2 /* Sources */,
+				7B184BD1BEF13F5A98A0BFD777C0534A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40D4C7C5B5ADD0628CA3B9815FDA64F /* PBXTargetDependency */,
+			);
+			name = "Pods-TSLogEvent";
+			productName = "Pods-TSLogEvent";
+			productReference = 266AD6AE5C39116F5445CC80BFE1B793 /* libPods-TSLogEvent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CC8F2F41925EC28B66B777FF88E846E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63750116E4E7F067C90F305C3BAB964D /* Pods-TSLogEvent */,
+				5A3625A6635ACB3F3F638DF773FFF7BA /* Pods-TSLogEvent-TSLogEventSample */,
+				17C0C95A7936DDCD8028500F559CA82D /* Pods-TSLogEvent-TSLogEventSampleTests */,
+				8FD59C5B909F201DED8686B0053475C0 /* SplunkMint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194FBB31195251524440367550B478B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F7AE94B8A1CC315E4FEF9CFAB85C0B /* Pods-TSLogEvent-TSLogEventSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7FC362164916243C0FDCC9D38E26B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B5DE8D42026AF1A97EBD64B5159EAC /* Pods-TSLogEvent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C957762A859DBA8D659B08B11BDC5EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC9E546BF4FAEBC845085463DC1363B /* Pods-TSLogEvent-TSLogEventSampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		096927021A79A56BB02AEE68CACE6C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SplunkMint;
+			target = 8FD59C5B909F201DED8686B0053475C0 /* SplunkMint */;
+			targetProxy = CC18AD9B1B6C44A5A5B8BA31E29140BB /* PBXContainerItemProxy */;
+		};
+		94437338A7AE71F7DE17E4B7F5383625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SplunkMint;
+			target = 8FD59C5B909F201DED8686B0053475C0 /* SplunkMint */;
+			targetProxy = 356842C59B83B615EE53B9271ACC9029 /* PBXContainerItemProxy */;
+		};
+		F40D4C7C5B5ADD0628CA3B9815FDA64F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SplunkMint;
+			target = 8FD59C5B909F201DED8686B0053475C0 /* SplunkMint */;
+			targetProxy = D0A0C8A98E88E486AA6E131C1CF9CF9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28864C2BD182C5C8D5CE66ECB4F24BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFEFD16471D50BB60C35910D2781173 /* Pods-TSLogEvent-TSLogEventSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62F6489FCBC7846001CB5FE3A2EE8AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB83586659048A93682A0187E6C4651 /* Pods-TSLogEvent-TSLogEventSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		68672D2AF2C9CBBF7DC70B540E151000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED690DC55A30089C174404B7C94C93D /* Pods-TSLogEvent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A32047C68ADA06E92C5130C7D6FC9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7B23043F944C30C3E30145CE978AEE /* SplunkMint.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90ED45CE2B0908BED2B8A9F60BBADB27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A470A63C7A95109FB176250374A72F8F /* Pods-TSLogEvent-TSLogEventSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E8480BB4F237B0909610E2C0BB9ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764622093F1CFFE472A8D9B76FBE7BC0 /* Pods-TSLogEvent.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C630A3E6CD0DF5076999744A3F8EE6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992D78629A1523FA0184997BE040B335 /* Pods-TSLogEvent-TSLogEventSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB72F2939A4511B5F4713F88177C204D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DCD2D4531CC93597816ED7380D1340 /* SplunkMint.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703B779EF36892E834C03E769A26AC53 /* Build configuration list for PBXNativeTarget "Pods-TSLogEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E8480BB4F237B0909610E2C0BB9ACA /* Debug */,
+				68672D2AF2C9CBBF7DC70B540E151000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895D2E1C448E25732649D9ADB2D60708 /* Build configuration list for PBXNativeTarget "Pods-TSLogEvent-TSLogEventSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ED45CE2B0908BED2B8A9F60BBADB27 /* Debug */,
+				62F6489FCBC7846001CB5FE3A2EE8AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E717BE50803D0990ACA3A1FED4C707B1 /* Build configuration list for PBXAggregateTarget "SplunkMint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A32047C68ADA06E92C5130C7D6FC9B6 /* Debug */,
+				FB72F2939A4511B5F4713F88177C204D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45EA2759CCBC5F30D5D7857825A6BFF /* Build configuration list for PBXNativeTarget "Pods-TSLogEvent-TSLogEventSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C630A3E6CD0DF5076999744A3F8EE6B0 /* Debug */,
+				28864C2BD182C5C8D5CE66ECB4F24BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
